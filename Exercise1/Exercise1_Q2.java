@@ -23,7 +23,7 @@ public class Exercise1_Q2 {
         int hours = input.nextInt();
         System.out.print("Enter the rate of each hour: ");
         int rate = input.nextInt();
-        System.out.println("The Over Time rate of the employee is" + (hours * rate));
+        System.out.println("The Over Time rate of the employee is: " + (hours * rate));
         input.close();
     }
 }
