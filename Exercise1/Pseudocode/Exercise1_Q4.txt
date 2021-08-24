@@ -1,0 +1,6 @@
+Calculate_Wire_Resistance
+    Prompt operator for m, l, a
+    Get m, l, a
+    Caclulate r = (m * l) / a
+    Print r
+END

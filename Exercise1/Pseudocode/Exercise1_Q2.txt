@@ -1,0 +1,6 @@
+Calculate_Over_Time
+    Prompt operator for hours, rate
+    Get hours, rate
+    Calculate overtime = hours * rate
+    Print overtime to screen
+END

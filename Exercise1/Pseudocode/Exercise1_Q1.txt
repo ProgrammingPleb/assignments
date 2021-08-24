@@ -1,0 +1,6 @@
+Calculate_two_integers
+    Prompt operator for num1, num2
+    Get num1, num2
+    Calculate sum = num1 + num2, difference = num1 - num2, product = num1 * num2, quotient = num1 / num2
+    Print sum, difference, product, quotient to screen
+END

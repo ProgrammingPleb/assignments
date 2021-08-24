@@ -1,0 +1,6 @@
+Calculate_Fahrenheit
+    Prompt operator for celcius
+    Get celcius
+    Calculate fahrenheit = 9 / 5 * celcius + 32
+    Print fahrenheit to screen
+END
