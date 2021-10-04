@@ -1,0 +1,21 @@
+Exercise2
+    Prompt user for num1, num2
+    Get num1, num2
+    REPEAT
+        Prompt selectCode
+        Get selectCode
+        IF selectCode = 1 THEN
+            Display "The sum is: ", num1 + num2
+        ELSE
+            IF selectCode = 2 THEN
+                Display "The product is: ", num1 * num2
+            ELSE
+                IF selectCode = 3 THEN
+                    Display "The quotient is: ", num1 / num2
+                ENDIF
+            ENDIF
+        ENDIF
+        Display 'Do you wish to continue? [Y/N]'
+        Get loopControlS
+    UNTIL loopControl = 'Y' OR loopControl = 'y'
+END
