@@ -1,0 +1,6 @@
+Get_Product_Of_Five
+1   DO x = 1 to 12, increment by 1
+2       Calculate product = x * 5
+3       Display x, " x 5 = ", product
+    ENDDO
+END

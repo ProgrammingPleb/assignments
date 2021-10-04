@@ -1,0 +1,9 @@
+Get_Square_And_Cube_Of_Number
+1   SET x = 1
+    REPEAT
+2       Display "Number: ", x
+3       Display "Square of Number: ", x * x
+4       Display "Cube of Number: ", x * x * x
+5       Increment x by 1
+6   UNTIL x <= 20
+END

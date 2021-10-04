@@ -1,0 +1,9 @@
+Get_Payroll
+1   SET payrollTotal = 0
+2   DOWHILE payrollTotal < 999
+3       Display "Enter Payroll Amount: "
+4       Get payrollAmount
+5       Calculate payrollTotal = payrollTotal + payrollAmount
+    ENDDO
+6   Display "Total Payroll: ", payrollTotal
+END
